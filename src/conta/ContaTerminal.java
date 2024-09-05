@@ -3,10 +3,10 @@ package conta;
 public class ContaTerminal {
 
         //Atributos privados
-        private int numeroConta;
-        private String agencia;
-        private String nomeCliente;
-        private float saldo;
+        private final int numeroConta;
+        private final String agencia;
+        private final String nomeCliente;
+        private final float saldo;
 
 
     public ContaTerminal(int numeroConta, String agencia, String nomeCliente, float saldo) {
