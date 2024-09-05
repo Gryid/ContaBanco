@@ -8,8 +8,6 @@ public class ContaTerminal {
         private String nomeCliente;
         private float saldo;
 
-    public ContaTerminal() {
-    }
 
     public ContaTerminal(int numeroConta, String agencia, String nomeCliente, float saldo) {
         this.numeroConta = numeroConta;
@@ -22,31 +20,15 @@ public class ContaTerminal {
         return numeroConta;
     }
 
-    public void setNumeroConta(int numeroConta) {
-        this.numeroConta = numeroConta;
-    }
-
     public String getAgencia() {
         return agencia;
-    }
-
-    public void setAgencia(String agencia) {
-        this.agencia = agencia;
     }
 
     public String getNomeCliente() {
         return nomeCliente;
     }
 
-    public void setNomeCliente(String nomeCliente) {
-        this.nomeCliente = nomeCliente;
-    }
-
     public float getSaldo() {
         return saldo;
-    }
-
-    public void setSaldo(float saldo) {
-        this.saldo = saldo;
     }
 }
